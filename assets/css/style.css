@@ -1,0 +1,199 @@
+.form-login{
+    margin-top: 120px;
+    margin-right: 70px;
+}
+.form-register{
+    margin-top: 10px;
+    margin-right: 70px;
+}
+.outter-form-login-luar {
+    padding-top:  5px;
+    padding-bottom:  5px;
+    padding-right:  5px;
+    padding-left:  5px;
+    background: #ffffff26;
+    background-size:cover;
+    position: content;
+    border-radius: 5px;
+}
+.outter-form-login-dalam {
+    padding-top:  10px;
+    padding-bottom:  30px;
+    padding-right:  50px;
+    padding-left:  50px;
+    background: #00000026;
+    background-size:cover;
+    position: content;
+    border-radius: 5px;
+}
+.inner-login .form-control {
+    background: white;
+}
+h3.title-login {
+    font-size: 30px;
+    font-family: 'Bungee', cursive;
+    color: black;
+    margin-bottom: 40px;
+}
+h4.title-login {
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.forget {
+    margin-top: 40px;
+    color: #ADADAD;
+}
+.btn-custom-black {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background: black;
+    color: #fff;
+    font-style: italic;
+}
+.alert-danger-login {
+    color: #ffffff;
+    background-color: #4e708f;
+    border-color: #000000;
+}
+.btn-custom-help {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #6f8d99;
+    border-radius: 4px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color:  #80959f;
+    color: #fff;
+    font-style: italic;
+}
+a.login{
+    color: white;
+}
+.password{
+    position: relative;
+}
+.password input[type="password"]{
+    padding-right: 30px;
+}
+.password .glyphicon,#password2 .glyphicon {
+    display:none;
+    right: 15px;
+    position: absolute;
+    cursor:pointer;
+}  
+/*Untuk nama Perusahaan*/
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: #000;
+    background-color: transparent;
+}
+
+/*Untuk button aktif*/
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus{
+      color: #ffffff;
+    background-color: #000;
+} 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+/*Untuk jika kita geser di button nav berubah warna*/
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+     color: #000;
+    background-color: #ffffff;
+}
+/*Untuk tampilan saat klik dropdwon*/
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #000;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fff;
+    white-space: nowrap;
+}
+.navbar-right .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.panel-full {
+    margin-bottom: 20px;
+    background-color: #888585;
+    border: 1.8px solid;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-user {
+    border-color: #000000;
+    background-color: #888585;
+    margin-bottom: 0px;
+}
+.panel-produk {
+    border-color: #000000;
+    background-color: #888585;
+    margin-bottom: 0px;
+}
+.modal-logout {
+    position: relative;
+    background-color: #dadada;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+.modal-headerlogout {
+    padding: 15px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 0px;
+}
+
+.modal-footerlogout {
+    padding: 15px;
+    padding-top: 0px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+}
+
+.btn-modal-logout {
+    color: #fff;
+    background-color: #000000;
+}
+c{
+    color: red;
+}
